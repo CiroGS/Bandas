@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.bandas{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    justify-content: space-around;
+}
+.megadeth{
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: black;
+    margin: 20px;
+}
+.img{
+    margin: 20px;
+}
+.texto{
+    margin: 20px;
+    color: white;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-size:100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 100px;
+}
+.pantera{
+    display: flex;
+    background-color: black;
+    width: 350px;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.lamb{
+    display: flex;
+    background-color: black;
+    width: 350px;
+    margin: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.infravaloradas{
+    display: flex;
+    justify-content: space-around; 
+}
+.lavanda{
+    display: flex;
+    background-color: black;
+    width: 350px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.corpse{
+    display: flex;
+    background-color: black;
+    width: 350px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
