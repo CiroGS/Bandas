@@ -28,6 +28,13 @@ body{
     justify-content: center;
     font-size:100px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 100px;
+}
+.titulo1{
+    display: flex;
+    justify-content: center;
+    font-size:100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 100px;
 }
 .pantera{
@@ -65,3 +72,27 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px;
+}
+.metalica{
+    display: flex;
+    background-color: black;
+    width: 350px;
+    flex-wrap: wrap;
+    align-self: center;
+    margin: 20px;
+}
+.sobrevalor{
+    display: flex;
+    flex-direction: column;
+}
+.subtexto {
+    display: flex;
+    color: black;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+    width: 600px;
+    flex-wrap: wrap;
+    align-self: center;
+    text-align: center;
+}
